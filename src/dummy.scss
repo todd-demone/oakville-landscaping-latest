@@ -4,8 +4,8 @@
 
 // use btn-danger for orange buttons
 // use btn-success for green buttons
-$orange: #ff8c00/* #ff3d00 */;
-$green:  #32cd32/* #357a38 */;
+$orange: #e34d12; // #e37b12 // #ff8c00 // #ff3d00
+$green:  #80c343; // #32cd32 // #357a38
 $danger: $orange;
 $primary: $green;
 
@@ -79,7 +79,7 @@ $link-hover-color: $danger;
 
 
 button.navbar-toggler:focus {
-  outline: 1px solid #ff8c00 /* #ff3d00 */;
+  outline: 1px solid #e34d12;// #ff8c00 // #ff3d00
   
 }
 
@@ -98,8 +98,9 @@ button.navbar-toggler:focus {
 }
 
 .testimonials-overlay {
-  background: rgba(50, 205, 50, 0.85);
-  /* background: rgba(53, 122, 56, 0.85); */
+  background: rgba(129, 195, 67, 0.85);
+  // background: rgba(50, 205, 50, 0.85);
+  // background: rgba(53, 122, 56, 0.85); 
 }
 
 @media (max-width: 991px) {

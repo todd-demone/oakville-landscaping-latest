@@ -9023,6 +9023,10 @@ button.navbar-toggler:focus {
   color: #212529 !important;
 }
 
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  text-decoration: underline;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #222;
 }

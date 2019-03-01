@@ -137,3 +137,7 @@ a.text-dark:focus, a.text-dark:hover {
 .navbar-light .navbar-nav .nav-link {
     color: #222;
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+}

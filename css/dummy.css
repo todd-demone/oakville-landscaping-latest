@@ -155,7 +155,7 @@ a {
 }
 
 a:hover {
-  color: #222;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -2770,7 +2770,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-  color: #222;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -9001,11 +9001,11 @@ button.navbar-toggler:focus {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #222222;
 }
 
 .navbar-dark .navbar-toggler {
-  border-color: #fff;
+  border-color: #222222;
 }
 
 .testimonials {

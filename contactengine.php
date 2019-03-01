@@ -2,7 +2,7 @@
 
 $EmailFrom = Trim(stripslashes($_POST['Email']));
 $EmailTo = "tdemone1@gmail.com";
-$Subject = "A message from your site visitor " . $_POST['Name'];
+$Subject = "A message from your site visitor";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
@@ -11,7 +11,7 @@ $Message = Trim(stripslashes($_POST['Message']));
 // validation
 $validationOK=true;
 if (!$validationOK) {
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
   exit;
 }
 
@@ -38,6 +38,6 @@ if ($success){
   print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
 }
 ?>

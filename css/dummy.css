@@ -9000,6 +9000,10 @@ button.navbar-toggler:focus {
   outline: 1px solid #80c343;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: #222222;
+}
+
 .testimonials {
   background: #444 url(../images/banner360x180.jpeg) center center no-repeat fixed;
   background-size: cover;

@@ -8,11 +8,12 @@ $orange: #e37b12; //#e34d12; // #e37b12 // #ff8c00 // #ff3d00
 $green:  #80c343; // #32cd32 // #357a38
 $danger: $orange;
 $primary: $green;
+$success: $green;
 
-$navbar-dark-hover-color: rgba($danger, .7);
-$navbar-dark-active-color: rgba($danger, .9);
+$navbar-dark-hover-color: rgba(#222222, .7);
+$navbar-dark-active-color: rgba(#222222, .9);
 $link-color: #ffffff;
-$link-hover-color: $danger;
+$link-hover-color: #222;
 
 // Required
 @import "../node_modules/bootstrap/scss/functions";
@@ -79,7 +80,7 @@ $link-hover-color: $danger;
 
 
 button.navbar-toggler:focus {
-  outline: 1px solid #e34d12;// #ff8c00 // #ff3d00
+  outline: 1px solid #80c343;// #ff8c00 // #ff3d00
   
 }
 

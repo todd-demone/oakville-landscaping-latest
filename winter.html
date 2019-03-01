@@ -101,26 +101,26 @@
     <h2 class="h1 text-center mb-5">Contact Us</h2>
     <div class="row">
       <div class="col-md-6">
-        <form>
+        <form name="contactform" action="contactengine.php" method="post">
           <div class="form-group">
-            <label for="Name1">Name</label>
-            <input type="name" class="form-control" id="Name1" aria-describedby="nameHelp" placeholder="Name*">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="Email1">Email</label>
-            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Email*">
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email" class="form-control" />
           </div>
            <div class="form-group">
-            <label for="Phone1">Phone</label>
-            <input type="email" class="form-control" id="Phone1" aria-describedby="phoneHelp" placeholder="Phone">
+            <label for="Tel">Phone:</label>
+            <input type="text" name="Tel" id="Tel" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="Textarea1">Message</label>
-            <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+            <label for="Message">Message:</label>
+            <textarea name="Message" rows="3" cols="20" id="Message" class="form-control"></textarea>
           </div>
-            <div class="">
-                        <button type="submit" class="btn btn-danger mb-4 mb-md-0">Send A Message</button>
-            </div>
+            
+            <input type="submit" name="submit" value="Send a Message" class="btn btn-danger mb-4 mb-md-0">
+            
         </form>
       </div>
        <div class="col-md-6">

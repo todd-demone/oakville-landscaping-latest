@@ -6,13 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Oakville Landscaping has specialized in satisfied customers since 1997. We are a full service landscape design, installation, lawn-care and maintenance company.">
   
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Oakville Landscaping">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://www.oakvillelandscaping.com/images/logo.png" />
+  <meta property="og:url" content="http://www.oakvillelandscaping.com/">
+  <meta property="og:description" content="Oakville Landscaping has specialized in satisfied customers since 1997. We are a full service landscape design, installation, lawn-care and maintenance company.">
+  
   <!-- CSS and Favicon -->
   <link rel="stylesheet" href="css/dummy.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
 
-  <title>Oakville Landscaping | Hardscaping Gallery</title>
+  <title>Oakville Landscaping | Home</title>
 </head>
 <body>
 <!-- NAVIGATION -->
@@ -26,8 +35,8 @@
     
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item pl-md-3">
-            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item active pl-md-3">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown  pl-md-3">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -38,11 +47,11 @@
               <a class="dropdown-item" href="winter.html">Winter Services</a>
             </div>
           </li>
-          <li class="nav-item dropdown active pl-md-3">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galleries <span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown  pl-md-3">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galleries</a>
             <div class="dropdown-menu" aria-labelledby="dropdown05">
               <a class="dropdown-item" href="landscaping-gallery.html">Landscaping Gallery</a>
-              <a class="dropdown-item active bg-danger" href="hardscaping-gallery.html">Hardscaping Gallery</a>
+              <a class="dropdown-item" href="hardscaping-gallery.html">Hardscaping Gallery</a>
               <a class="dropdown-item" href="lawngarden-gallery.html">Lawn & Garden Gallery</a>
             </div>
           </li>
@@ -57,114 +66,36 @@
     </nav>
   </div>
 </div>
+
+
 <!-- JUMBOTRON -->
   <div class="jumbotron jumbotron-fluid text-center mb-0">
     <div class="container py-5">
-      <h1 class="display-4 text-white">Hardscaping Gallery</h1>
-    </div>
-  </div>
-<main role="main">
-<!-- GALLERY -->
-<section class="my-5">
-  <div class="container mini-container">
-    <div class="row justify-content-center text-center">
-      <a href="images/hardscaping/img1-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img1.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img2-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img2.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img3-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img3.jpg" class="img-fluid">
-      </a>
-    </div>
-    <div class="row justify-content-center text-center">
-      <a href="images/hardscaping/img4-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img4.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img5-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img5.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img6-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img6.jpg" class="img-fluid">
-      </a>
-    </div>
-     <div class="row justify-content-center text-center">
-      <a href="images/hardscaping/img7-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img7.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img8-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img8.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img9-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img9.jpg" class="img-fluid">
-      </a>
-    </div>
-     <div class="row justify-content-center text-center">
-      <a href="images/hardscaping/img10-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img10.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img11-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img11.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img12-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img12.jpg" class="img-fluid">
-      </a>
-    </div>
-     <div class="row justify-content-center text-center">
-      <a href="images/hardscaping/img13-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img13.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img14-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img14.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img15-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img15.jpg" class="img-fluid">
-      </a>
-    </div>
-     <div class="row justify-content-center">
-      <a href="images/hardscaping/img18-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img18.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img19-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img19.jpg" class="img-fluid">
-      </a>
-      <a href="images/hardscaping/img20-big.jpg" data-toggle="lightbox" data-max-width="600" data-gallery="example-gallery" class="col-sm-4 mb-4">
-          <img src="images/hardscaping/img20.jpg" class="img-fluid">
-      </a>
-    </div>
-  </div>
-</section>
-<hr>
-<!-- CONTACT FORM -->
-<section class="my-5">
-  <div class="container">
-    <h2 class="h1 text-center mb-5">Contact Us</h2>
-    <div class="row">
-      <div class="col-md-6">
-       <form name="contactform" action="contactengine.php" method="post">
-          <div class="form-group">
-            <label for="Name">Name:</label>
-            <input type="text" name="Name" id="Name" class="form-control" />
+     <div class="d-flex flex-column text-white">
+       <!--  <h1 class="display-4">Oakville Landscaping</h1> -->
+        <p class="h1 mb-4 font-italic">"Keeping Oakville Beautiful Since 1997"</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <a class="mx-auto btn btn-block btn-danger btn-lg" style="max-width: 320px;" href="tel:1-905-847-3504" role="button">Call 905-847-3504 &raquo;</a>
           </div>
-          <div class="form-group">
-            <label for="Email">Email:</label>
-            <input type="text" name="Email" id="Email" class="form-control" />
-          </div>
-           <div class="form-group">
-            <label for="Tel">Phone:</label>
-            <input type="text" name="Tel" id="Tel" class="form-control" />
-          </div>
-          <div class="form-group">
-            <label for="Message">Message:</label>
-            <textarea name="Message" rows="3" cols="20" id="Message" class="form-control"></textarea>
+          <div class="col-lg-4">
+            <a class="mx-auto btn btn-block btn-danger btn-lg" style="max-width: 320px;" href="contact.html" role="button">Email us &raquo;</a>
           </div>
             
-            <input type="submit" name="submit" value="Send a Message" class="btn btn-danger mb-4 mb-md-0">
-            
-        </form>
+       
+        </div>
       </div>
-        <div class="col-md-6">
+    </div>
+  </div>
+  
+<main role="main">
+		
+			
+		<h1>Your message has been sent!</h1><br />
+		
+		<p><a href="index.html">Back to Home Page</a></p>
+	
+	 <div class="col-md-6">
         <h3 class="h4">Get in Touch</h3>
         <p>Call us at <a href="tel:1-905-847-3504" class="text-danger"><u>905-847-3504</u></a> or fill out the form if you have any questions, special requests or would like a free estimate.</p>
         <h4>Mailing Address</h4>
@@ -174,7 +105,7 @@
             <li>478 Dundas St. W., PO Box 30065</li>
             <li>Oakville, ON L6H 6Y0</li>
             <li><p></p></li>
-           <li>Oakville: <a href="tel:1-905-847-3504" class="text-danger"><u>905-847-3504</u></a></li>
+            <li>Oakville: <a href="tel:1-905-847-3504" class="text-danger"><u>905-847-3504</u></a></li>
             <li>Milton: <a href="tel:1-905-864-8021" class="text-danger"><u>905-864-8021</u></a></li>
             <li>info@oakvillelandscaping.com</li>
           </ul>
@@ -190,14 +121,36 @@
     </div>
   </div>
 </section>
+<hr>
 
+
+<!-- Partner LOGOS -->
+<section class="partner-logos py-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-6 col-lg-3 border-right border-success">
+        <img src="images/banas-stone-logo.jpg">
+      </div>
+      <div class="col-sm-6 col-lg-3 border-right border-success">
+        <img src="images/unilock_logo.jpg">
+      </div>
+      <div class="col-sm-6 col-lg-3 border-right border-success">
+        <img src="images/navascape_logo.jpg">
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <img src="images/permacon_logo.jpg">
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 
+<!-- FOOTER -->
 <footer class="bg-success text-white h-100 py-4">
   <div class="container text-center">
     <div><a class="mb-n1" href="index.html"><img src="images/logo.png" alt="Oakville Landscaping Logo"></a></div>
     <div><a href="tel:1-905-847-3504" role="button">905-847-3504</a></div>
-    <ul class="nav justify-content-center mb-2">
+    <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
@@ -225,8 +178,8 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-    <p><a href="https://www.facebook.com/oakvillelandscaping/"><span><i class="fab fa-facebook fa-2x"></i></span></a></p>
-    <p>&copy; 2019 Oakville Landscaping </p>
+    <div><a href="https://www.facebook.com/oakvillelandscaping/" class="py-2"><span><i class="fab fa-facebook fa-2x"></i></span></a></div>
+    <small>&copy; 2019 Oakville Landscaping </small>
   </div>
 </footer>
     <!-- Optional JavaScript -->

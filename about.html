@@ -186,22 +186,22 @@
     <h2 class="h1 text-center mb-5">Contact Us</h2>
     <div class="row">
       <div class="col-md-6">
-        <form name="contactform" action="email.php" method="post">
+        <form name="contactform" action="contactengine.php" method="post">
           <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" name="name" class="form-control" aria-describedby="nameHelp">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="text" name="email" class="form-control" aria-describedby="emailHelp">
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email" class="form-control" />
           </div>
            <div class="form-group">
-            <label for="telephone">Phone:</label>
-            <input type="text" name="telephone" class="form-control" aria-describedby="phoneHelp">
+            <label for="Tel">Phone:</label>
+            <input type="text" name="Tel" id="Tel" class="form-control" />
           </div>
           <div class="form-group">
-            <label for="comments">Message:</label>
-            <textarea name="comments" class="form-control" rows="3"></textarea>
+            <label for="Message">Message:</label>
+            <textarea name="Message" rows="3" cols="20" id="Message" class="form-control"></textarea>
           </div>
             
             <input type="submit" name="submit" value="Send a Message" class="btn btn-danger mb-4 mb-md-0">

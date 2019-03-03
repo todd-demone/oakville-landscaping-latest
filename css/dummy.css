@@ -8979,8 +8979,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .jumbotron {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/banner360x180.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner360x180.jpeg);
+  background-image: url(../images/slide1.jpg);
   background-size: cover;
 }
 

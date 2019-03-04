@@ -9038,4 +9038,12 @@ button.navbar-toggler:focus {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+.ekko-lightbox .modal-dialog {
+  -webkit-box-flex: 100% !important;
+      -ms-flex: 100% !important;
+          flex: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+}
 /*# sourceMappingURL=dummy.css.map */

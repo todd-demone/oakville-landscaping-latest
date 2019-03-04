@@ -58,12 +58,11 @@ $success: $green;
 
 .jumbotron {
   background-image:
-    // linear-gradient(
-    //  rgba(0, 0, 0, 0.5),
-    //  rgba(0, 0, 0, 0.5)
-    // ),
-    //url(../images/banner360x180.jpeg);
-    url(../images/slide1.jpg);
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/banner360x180.jpeg);
     background-size: cover;
 }
 
